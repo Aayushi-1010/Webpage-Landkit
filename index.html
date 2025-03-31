@@ -14,11 +14,12 @@
   />    
 </head>
 <body>
-    
+
     <!-- Header Section -->
     <header class="header">
-        <div class="logo">Landkit.</div>
-        <nav>
+        <div class="logo">Landkit.</div> 
+        <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+        <nav class="navbar" id="navMenu">
             <ul class="nav-links">
                 <li><a href="#">Landings</a></li>
                 <li><a href="#">Pages</a></li>
@@ -27,26 +28,31 @@
             </ul>
         </nav>
         <button class="buy-btn">Buy now</button>
-    </header>
+    </header> 
 
-    <!-- Hero-section -->
+    <!-- Hero Section -->
     <section class="hero-section">
-        <div class="hero-text">
-            <h1>Welcome to <span class="highlight">Landkit.</span> <br> Develop anything.</h1>
-            <p>Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
-            <div class="hero-buttons">
-                <button class="primary-btn">View all pages →</button>
-                <button class="secondary-btn">Documentation</button>
+     <div class="container">
+        <div class="main">
+            <div class="hero-text">
+                <h1>Welcome to <span class="highlight">Landkit.</span> <br> Develop anything.</h1>
+                <p>Build a beautiful, modern website with flexible Bootstrap components built from scratch.</p>
+                <div class="hero-buttons">
+                    <button class="primary-btn">View all pages →</button>
+                    <button class="secondary-btn">Documentation</button>
+                </div>
             </div>
         </div>
         <div class="hero-image">
             <img src="illustration.png" alt="Illustration">
         </div>
+     </div>
     </section>
 
     <!-- Features section -->
     <section class="features-section">
-        <div class="feature-container">
+        <div class="container">
+            <div class="feature-container">
             <div class="row">
                 <div class="feature">
                     <div class="icon"><i class="fa-solid fa-sliders"></i></div>
@@ -69,8 +75,9 @@
 
     <!-- Card Section -->
     <section class="card-section">
+        <div class="container">
         <div class="card">
-            <img src="photo-2.jpg" alt="People in Library" class="card-img">
+            <img src="photo-2.jpg" alt="People in Library" class="card-img">    
             <form class="card-form">
                 <input type="text" placeholder="Name">
                 <input type="email" placeholder="Email">
@@ -80,7 +87,7 @@
         </div>
         <div class="info">
             <h2>The most useful resource <br>
-                <span class="highlight">ever created for founders.</span>
+                <span class="card-highlight">ever created for founders.</span>
             </h2>
             <p>Using Landkit to build your site means never worrying about designing another page or cross-browser compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.</p>
             <div class="benefits">
@@ -90,13 +97,16 @@
                 <div class="benefit"><span>✔</span> Integration ready</div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Experience Section -->
     <section class="experience-section">
+        <div class="container">
+            <div class="exp-main">
         <div class="experience-text">
             <h2>We have lots of experience <br>
-                <span class="highlight">building Bootstrap themes.</span>
+                <span class="highlight ">building Bootstrap themes.</span>
             </h2>
             <p>We've built well over a dozen Bootstrap themes and sold tens of thousands of copies.</p>
 
@@ -120,10 +130,13 @@
         <div class="experience-image">
             <img src="dashkit.jpg" alt="Performance Dashboard" class="experience-img">
         </div>
+    </div>
+    </div>
     </section>
 
     <!-- Testimonial Section -->
     <section class="testimonial-section">
+        
         <h2>Our customers are our biggest fans.</h2>
         <p class="subtext">We don't like to brag, but we don't mind letting our customers do it for us. <br> 
             Here are a few nice things folks have said about our themes over the years.</p>
@@ -133,8 +146,9 @@
 
             <div class="testimonial-card">
                 <img src="girl.jpg" alt="Customer Image" class="testimonial-image">
+
                 <div class="testimonial-text">
-                    <img src="airbnb.png" alt="Airbnb" class="company-logo">
+                    <img src=" airbnb.png" alt="Airbnb" class="company-logo">
                     <p class="testimonial-quote">“Landkit is hands down the most useful front-end Bootstrap theme I've ever used. I can't wait to use it again for my next project.”</p>
                     <p class="testimonial-name">DAVE GAMACHE</p>
                 </div>
@@ -146,6 +160,7 @@
 
     <!-- Business Section -->
     <section class="business-section">
+        <div class="container">
         <div class="business-text">
             <h2>Stay focused on your business. <br>
                 <span class="highlight">Let us handle the design.</span>
@@ -171,21 +186,26 @@
         <div class="business-image">
             <img src="illustration-8.png" alt="Illustration">
         </div>
+    </div>
     </section>
 
     <!-- Pricing Section -->
     <section class="pricing-section">
-        <h2>Fair, simple pricing for all.</h2>
-        <p class="subtext">
-            All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
-        </p>
+        <div class="container">
+            <div class="pricing-main">
+            <div class="pricing-top">
+                <h2>Fair, simple pricing for all.</h2>
+                <p class="subtext">
+                    All types of businesses need access to development resources, so we give you the option to decide how much you need to use.
+                </p>
 
-        <div class="toggle">
-            <span>Annual</span>
-            <div><i class="fa-solid fa-toggle-off"></i></div>
-            <span>Monthly</span>
-        </div>
-
+                <div class="toggle">
+                    <span>Annual</span>
+                    <div><i class="fa-solid fa-toggle-off"></i></div>
+                    <span>Monthly</span>
+                </div>
+            </div>
+        
         <div class="pricing-container">
             <div class="pricing-card">
                 <span class="badge">STANDARD</span>
@@ -209,53 +229,60 @@
                 <button class="button light">Contact us</button>
             </div>
         </div>
+    </div>
+    </div>
     </section>
 
     <!-- FAQ & CTA Section -->
     <section class="faq-section">
+        <div class="container">
         <div class="faq-container">
             <div class="faq-item">
                 <div class="faq-icon"><i class="fa-solid fa-circle-question"></i></div>
-                <div>
+                <div class="faq-content">
                     <h3>Can I use Landkit for my clients?</h3>
                     <p>Absolutely. The Bootstrap Themes license allows you to build a website for personal use or for a client.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-icon"><i class="fa-solid fa-circle-question"></i></div>
-                <div>
+                <div class="faq-content">
                     <h3>Is there a money back guarantee?</h3>
                     <p>Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return and get your money back.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-icon"><i class="fa-solid fa-circle-question"></i></div>
-                <div>
+                <div class="faq-content">
                     <h3>Do I get free updates?</h3>
                     <p>Yes. We update all of our themes with each Bootstrap update, plus are constantly adding new components, pages, and features to our themes.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <div class="faq-icon"><i class="fa-solid fa-circle-question"></i></div>
-                <div>
+                <div class="faq-content">
                     <h3>Does it work with Rails? React? Laravel?</h3>
                     <p>Yes. Landkit has basic CSS/JS files you can include. If you want to enable deeper customization, you can integrate it into your assets pipeline or build processes.</p>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Buy it Section -->
-        <section class="cta-section">
-            <span class="badge">GET STARTED</span>
-            <h2>Get Landkit and save your time.</h2>
-            <p>Stop wasting time trying to do it the "right way" and build a site from scratch.<br> 
-                Landkit is faster, easier, and you still have complete control.</p>
-            <button class="cta-button">Buy it now →</button>
-        </section>
+    <section class="cta-section">
+        <!-- <div class="container"> -->
+        <span class="badge">GET STARTED</span>
+        <h2>Get Landkit and save your time.</h2>
+        <p>Stop wasting time trying to do it the "right way" and build a site from scratch.<br> 
+            Landkit is faster, easier, and you still have complete control.</p>
+        <button class="cta-button">Buy it now →</button>
+    <!-- </div> -->
+    </section>
 
     <!-- Footer Section -->
     <footer class="footer">
+        <div class="container">
         <div class="footer-container">
             <div class="footer-brand">
                 <h2 class="logo">Landkit.</h2>
@@ -313,7 +340,26 @@
                 </div>
             </div>
         </div>
+    </div>
     </footer>
+
+    <script>
+        document.querySelector(".menu-icon").addEventListener("click", function () {
+          const navMenu = document.getElementById("navMenu");
+          navMenu.classList.toggle("active");
+    
+          // Toggle hamburger icon between bars and X
+          const hamburgerIcon = this.querySelector("i");
+          if (hamburgerIcon.classList.contains("fa-bars")) {
+            hamburgerIcon.classList.remove("fa-bars");
+            hamburgerIcon.classList.add("fa-xmark");
+          } else {
+            hamburgerIcon.classList.remove("fa-xmark");
+            hamburgerIcon.classList.add("fa-bars");
+          }
+        });
+    
+      </script>
 
 </body>
 </html>
